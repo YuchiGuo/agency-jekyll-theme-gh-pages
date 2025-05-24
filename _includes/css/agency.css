@@ -673,12 +673,13 @@ aside.clients img {
 }
 
 section#graduation {
-    text-align: center;
-    color: #fff;
+    background-attachment: scroll;
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/Cee_Caius.JPG');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
 }
 
 section#events {
@@ -688,7 +689,7 @@ section#events {
     background-image: url('{{ site.baseurl }}/img/tithall_mayball_guitar.JPG');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%; /* 👈 Fit exactly to container */
+    background-size: 100% 100%;
     background-size: cover;
 }
 
@@ -700,7 +701,7 @@ section#portrait {
     background-image: url('{{ site.baseurl }}/img/tithall_bubble.JPG');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%; /* 👈 Fit exactly to container */
+    background-size: 100% 100%; 
     background-size: cover;
 }
 
@@ -710,6 +711,8 @@ section#contact {
     background-image: url('{{ site.baseurl }}/img/kyoto_street.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-size: cover;
 }
 
 section#contact .section-heading {
