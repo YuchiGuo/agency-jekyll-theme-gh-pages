@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-Weiyi.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -325,17 +325,17 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 200px 0;
 }
 
 section h2.section-heading {
-    margin-top: 0;
+    margin-top: 50;
     margin-bottom: 15px;
     font-size: 40px;
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 100px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
@@ -345,8 +345,23 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
+        padding: 350px 0;
+    }
+}
+
+@media(min-width:768px) {
+    section#team {
         padding: 150px 0;
     }
+
+@media(min-width:768px) {
+section#contact {
+    padding: 100px 0;
+}
+
+@media(min-width:768px) {
+section#clients {
+    padding: 100px 0;
 }
 
 .service-heading {
@@ -633,7 +648,7 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-bottom: 50px;
+    margin-bottom: 0;
     text-align: center;
 }
 
@@ -643,7 +658,7 @@ section h3.section-subheading {
 }
 
 .team-member h4 {
-    margin-top: 25px;
+    margin-top: 0;
     margin-bottom: 0;
     text-transform: none;
 }
@@ -656,11 +671,48 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+section#graduation {
+    text-align: center;
+    color: #fff;
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/Cee_Caius.JPG');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100% 100%; /* 👈 Fit exactly to container */
+    background-size: cover;
+}
+
+section#events {
+    text-align: center;
+    color: #fff;
+    background-color: #222;
+    background-image: url('{{ site.baseurl }}/img/tithall_mayball_guitar.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* 👈 Fit exactly to container */
+    background-size: cover;
+}
+
+
+section#portrait {
+    text-align: center;
+    color: #fff;
+    background-color: #222;
+    background-image: url('{{ site.baseurl }}/img/tithall_bubble.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* 👈 Fit exactly to container */
+    background-size: cover;
+}
+
+
+section#contact {
+    background-color: #222;
+    background-image: url('{{ site.baseurl }}/img/kyoto_street.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* 👈 Fit exactly to container */
+    background-size: cover;
 }
 
 section#contact .section-heading {
