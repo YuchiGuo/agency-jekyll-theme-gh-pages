@@ -364,6 +364,7 @@ section#clients {
     padding: 100px 0;
 }
 
+
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -678,8 +679,6 @@ section#graduation {
     background-image: url('{{ site.baseurl }}/img/Cee_Caius.JPG');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%; /* 👈 Fit exactly to container */
-    background-size: cover;
 }
 
 section#events {
@@ -711,8 +710,6 @@ section#contact {
     background-image: url('{{ site.baseurl }}/img/kyoto_street.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-size: cover;
 }
 
 section#contact .section-heading {
